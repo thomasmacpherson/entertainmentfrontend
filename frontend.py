@@ -18,21 +18,21 @@ class Example(Frame):
         
     def initUI(self):
 
-        Style().configure("TButton", padding=(10, 10, 10, 10), 
-            font='serif 10', weight=1)
+        # Style().configure("TButton", padding=(10, 10, 10, 10), 
+        #     font='serif 8', weight=1)
         mri = Image.open("mri.jpg")
         # mri.resize((w, h), Image.ANTIALIAS)
         background_image=ImageTk.PhotoImage(mri)
         background_label = Label(self, image=background_image)
         background_label.photo=background_image
         background_label.place(x=0, y=-5, relheight=1)        
-        self.columnconfigure(0, pad=20, weight=1)
-        self.columnconfigure(1, pad=20, weight=1)
+        self.columnconfigure(0, pad=10, weight=1)
+        self.columnconfigure(1, pad=10, weight=1)
         self.columnconfigure(2, pad=20, weight=1)
         self.rowconfigure(0, pad=20, weight=1)
         self.rowconfigure(1, pad=20, weight=1)
         self.rowconfigure(2, pad=20, weight=1)
-        self.customFont = tkFont.Font(family="Helvetica", size=40)
+        self.customFont = tkFont.Font(family="Helvetica", size=15)
         # Style().configure('green/black.TButton', foreground='yellow', background=tk_rgb, activefill="red",font=self.customFont)
         entry = Entry(self) #TODO: REMOVE?
         f = open('games.txt')
