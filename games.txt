@@ -2,8 +2,8 @@ Inkspill:A fun logic game to test your planning ability
 Memory Puzzle:This memory game will get you scratching your head
 Four In A Row:A fun logic game to test your planning ability
 Snake:A fun logic game to test your planning ability
-Inkspill:A fun logic game to test your planning ability
-Inkspill:A fun logic game to test your planning ability
-Inkspill:A fun logic game to test your planning ability
-Inkspill:A fun logic game to test your planning ability
-Inkspill:A fun logic game to test your planning ability
+Paint Me:A fun logic game to test your planning ability
+Gem Gem:A fun logic game to test your planning ability
+Slide Puzzle:A fun logic game to test your planning ability
+Flippy:A fun logic game to test your planning ability
+Dodgeball:A fun logic game to test your planning ability
